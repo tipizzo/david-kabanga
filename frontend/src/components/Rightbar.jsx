@@ -8,6 +8,10 @@ import javascript from '../assets/icons/js.png'
 import react from '../assets/icons/physics.png'
 import node from '../assets/icons/nodejs.png'
 import python from '../assets/icons/python.png'
+import git from '../assets/icons/git.png'
+import mongo from '../assets/icons/mongo.svg'
+import ContactForm from './ContactForm'
+import Footer from './Footer'
 
 const StyledAvatar = styled(Avatar)({
     height: "45px",
@@ -43,8 +47,24 @@ const rightbar = () => {
                     <Grid2>
                         <StyledAvatar src={python} />
                     </Grid2>
+                    <Grid2>
+                        <StyledAvatar src={git} />
+                    </Grid2>
+                    <Grid2>
+                        <StyledAvatar src={mongo} />
+                    </Grid2>
+                    <Grid2>
+                        <StyledAvatar src={git} />
+                    </Grid2>
+                    <Grid2>
+                        <StyledAvatar src={git} />
+                    </Grid2>
                 </Grid2>
-
+                <Typography gutterBottom sx={{ marginTop: "70px", marginBottom: "20px", fontWeight: "bold", fontSize: "30px" }}>
+                    Hire me ? 👇
+                </Typography>
+                <ContactForm />
+                <Footer />
          </Box>
   )
 }

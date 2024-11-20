@@ -1,6 +1,6 @@
 import React from 'react'
 import { AppBar, styled, Toolbar, Typography, Box} from '@mui/material'
-import { Message } from '@mui/icons-material'
+import { DarkMode, Message } from '@mui/icons-material'
 
 const StyledToolbar = styled(Toolbar)({
     display: "flex",
@@ -27,7 +27,7 @@ const Navbar = () => {
                     D K.
                 </Typography>
                 <Icons>
-                    <Message />
+                    <DarkMode sx={{ cursor: "pointer" }} />
                 </Icons>
             </StyledToolbar>
         </AppBar>
