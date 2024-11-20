@@ -14,11 +14,11 @@ const Icons = styled(Box)(({ theme }) => {
 const Navbar = () => {
   return (
     <Box sx={{ marginBottom: "65px" }}>
-        <AppBar position='fixed'>
+        <AppBar position='fixed' sx={{ bgcolor: '#818181' }}>
             <StyledToolbar>
                 <Typography 
-                    variant='h6'
-                    sx={{ display: { xs: "none", sm: "block" }, cursor: "pointer"}} >
+                    variant='h5'
+                    sx={{ display: { xs: "none", sm: "block" }, cursor: "pointer", fontWeight: "bold"}} >
                     DAVID K.
                 </Typography>
                 <Typography

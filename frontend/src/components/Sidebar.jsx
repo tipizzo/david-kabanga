@@ -1,4 +1,4 @@
-import { GitHub, Info, Javascript, LinkedIn, Twitter } from '@mui/icons-material'
+import { GitHub, Info, Javascript, LinkedIn, Twitter, Verified, X } from '@mui/icons-material'
 import { styled, Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Card, CardMedia, CardContent, CardActions, Typography, Button, Avatar, IconButton } from '@mui/material'
 import React from 'react'
 import quote from '../assets/quote.jpg'
@@ -29,8 +29,11 @@ const sidebar = () => {
           />
           <AvatarStyle alt="David Kabanga" src={profile} />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              About Me
+            <Typography gutterBottom variant="30px" sx={{ display: 'flex', gap: "7px" }}>
+              David Kabanga <Verified sx={{ fontSize: '18px' }} />
+            </Typography>
+            <Typography variant='h6'>
+                Software Developer
             </Typography>
             <Typography variant="body2" sx={{ color: 'text.secondary' }}>
             Hi there 😁! My name is David Kabanga. I’m a passionate Full-Stack MERN Developer with expertise in building scalable and efficient web applications. My skills span the entire development process, from designing user-friendly interfaces with React to crafting robust backend systems using Node.js, Express, and MongoDB.
@@ -45,7 +48,7 @@ const sidebar = () => {
                 <LinkedIn />
             </IconButton>
             <IconButton>
-                <Twitter />
+                <X />
             </IconButton>
           </CardActions>
         </Card>
