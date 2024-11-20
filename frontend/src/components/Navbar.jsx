@@ -14,7 +14,7 @@ const Icons = styled(Box)(({ theme }) => {
 const Navbar = () => {
   return (
     <Box sx={{ marginBottom: "65px" }}>
-        <AppBar position='fixed' sx={{ bgcolor: '#818181' }}>
+        <AppBar position='fixed'>
             <StyledToolbar>
                 <Typography 
                     variant='h5'
