@@ -42,7 +42,7 @@ import {
           borderRight: "1px solid #ddd", // Optional: Add a border for separation
         }}
       >
-        <Card sx={{ margin: "0 auto", marginTop: '30px', width: "90%" }}>
+        <Card sx={{ margin: "0 auto", marginTop: '30px', width: "75%" }}>
           <CardMedia
             sx={{ height: 180 }}
             image={quote} // Your quote image

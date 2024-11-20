@@ -6,13 +6,21 @@ const StyledBox = styled(Box)({
     
 })
 
+const HashtagLink = styled(Link)({
+    textDecoration: "none",
+    fontWeight: "bold",
+    fontSize: "13px",
+    margin: "2px"
+    
+})
+
 const Feeds = () => {
   return (
     <Box flex={1} p={5} bgcolor="#f6f6f6">
         <Typography gutterBottom sx={{ marginBottom: "20px", fontWeight: "bold", fontSize: "30px" }}>
-            Activity 🚀
+            Activity 😎
         </Typography>
-         <Card sx={{ maxWidth: 500, marginBottom: "30px"  }}>
+         <Card sx={{ margin: " 10px auto 30px", width: "90%",  }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: 'red' }} aria-label="recipe">
@@ -34,6 +42,10 @@ const Feeds = () => {
         alt="Paella dish"
       />
       <CardContent>
+        <HashtagLink>#ReactJS</HashtagLink>
+        <HashtagLink>#MaterialUI</HashtagLink>
+        <HashtagLink>#Web3Forms</HashtagLink>
+        <HashtagLink>#Redux</HashtagLink>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
           This impressive paella is a perfect party dish and a fun meal to cook
           together with your guests. Add 1 cup of frozen peas along with the mussels,
@@ -54,7 +66,7 @@ const Feeds = () => {
       
     </Card>
 
-    <Card sx={{ maxWidth: 500  }}>
+    <Card sx={{ margin: " 10px auto 30px", width: "90%",  }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: 'red' }} aria-label="recipe">
@@ -66,7 +78,7 @@ const Feeds = () => {
             <MoreVert />
           </IconButton>
         }
-        title="Youtube-Clone"
+        title="Netflix-Clone"
         subheader="September 14, 2024"
       />
       <CardMedia
@@ -76,6 +88,10 @@ const Feeds = () => {
         alt="Paella dish"
       />
       <CardContent>
+        <HashtagLink>#ReactJS</HashtagLink>
+        <HashtagLink>#MaterialUI</HashtagLink>
+        <HashtagLink>#Web3Forms</HashtagLink>
+        <HashtagLink>#Redux</HashtagLink>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
           This impressive paella is a perfect party dish and a fun meal to cook
           together with your guests. Add 1 cup of frozen peas along with the mussels,
@@ -96,7 +112,7 @@ const Feeds = () => {
       
     </Card>
 
-    <Card sx={{ maxWidth: 500  }}>
+    <Card sx={{ margin: " 10px auto 30px", width: "90%",  }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: 'red' }} aria-label="recipe">
@@ -108,16 +124,20 @@ const Feeds = () => {
             <MoreVert />
           </IconButton>
         }
-        title="ChatGPT-Clone"
+        title="Netflix-Clone"
         subheader="September 14, 2024"
       />
       <CardMedia
         component="img"
-        height="20%"
+        height="10%"
         image="https://loremflickr.com/500/500?random"
         alt="Paella dish"
       />
       <CardContent>
+        <HashtagLink>#ReactJS</HashtagLink>
+        <HashtagLink>#MaterialUI</HashtagLink>
+        <HashtagLink>#Web3Forms</HashtagLink>
+        <HashtagLink>#Redux</HashtagLink>
         <Typography variant="body2" sx={{ color: 'text.secondary' }}>
           This impressive paella is a perfect party dish and a fun meal to cook
           together with your guests. Add 1 cup of frozen peas along with the mussels,
