@@ -3,9 +3,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <Box sx={{ margin: '40px', display: "flex", justifyContent: "center", position: "fixed", right: "30px" }}>
+    <Box>
         <Typography sx={{ fontWeight: "bold" }}>
-            David K. &copy; 2024
+            &copy; 2024 David KABANGA, All Rights Reserved.
         </Typography>
     </Box>
   )

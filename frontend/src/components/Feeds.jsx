@@ -18,7 +18,7 @@ const Feeds = () => {
   return (
     <Box flex={1} p={5} bgcolor="#f6f6f6">
         <Typography gutterBottom sx={{ marginBottom: "20px", fontWeight: "bold", fontSize: "30px" }}>
-            Activity 😎
+            Activity <span className='emoji'>🚀</span>
         </Typography>
          <Card sx={{ margin: " 10px auto 30px", width: "90%",  }}>
       <CardHeader
